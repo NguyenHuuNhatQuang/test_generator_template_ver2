@@ -23,7 +23,7 @@ namespace Templates
             exit (-1);
         }
 
-        return mt () % (h - l + 1) + 1;
+        return mt () % (h - l + 1) + l;
     }
 
     long long log_rand (long long t) // sinh mot so ngau nhien tu 1 den t
